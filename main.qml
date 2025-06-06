@@ -10,7 +10,7 @@ Window {
     height: 640
     visible: true
     title: "Калькулятор"
-    //flags: Qt.FramelessWindowHint
+    flags: Qt.FramelessWindowHint
     color: colors.theme_1_1
 
     ColumnLayout {

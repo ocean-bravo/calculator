@@ -100,7 +100,7 @@ Item {
         Rectangle {
             id: resultBackgroud
             color: colors.theme_1_3
-            radius: 50
+            radius: 30
             Layout.preferredHeight: 156
             Layout.fillWidth: true
 
@@ -108,7 +108,7 @@ Item {
                 width: 280
                 height: 30
                 anchors.top: parent.top
-                anchors.topMargin: 44
+                anchors.topMargin: 45
                 anchors.horizontalCenter: parent.horizontalCenter
 
                 // Математическое выражение
@@ -136,7 +136,7 @@ Item {
                 width: 281
                 height: 60
                 anchors.top: parent.top
-                anchors.topMargin: 82
+                anchors.topMargin: 77
 
                 anchors.horizontalCenter: parent.horizontalCenter
 
