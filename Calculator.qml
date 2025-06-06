@@ -185,7 +185,7 @@ Item {
                         var res = parseInput(checked ? '(' : ')')
                         // Замена знаков '*' и '/' на более приятные '×' и '÷'
                         expression = res.expression.replace(/\//g, '÷').replace(/\*/g, '×')
-                        display = res.display
+                        currentInput = res.display
                     }
                 }
 
